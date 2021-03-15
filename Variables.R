@@ -6,6 +6,6 @@ new_survey_time
 
 assigned_gender <- "female"
 identified_gender <- "non-binary"
-transgender <- assigned_gender == identified_gender
+transgender <- assigned_gender != identified_gender
 
 
